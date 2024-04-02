@@ -1,0 +1,68 @@
+/* 
+    Logan Yordanou
+    200565992
+*/
+
+
+body {
+    font-family: 'Cabin', sans-serif;
+    background: linear-gradient(to right, #f0e2d4, #d9b991);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #6f4e37;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.cCrisp-images img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #6f4e37;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.contact-form input,
+.contact-form button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #d9b991;
+    color: #6f4e37;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
